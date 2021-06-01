@@ -19,7 +19,6 @@ import java.util.List;
 public class SpringDataESSearchTest {
     @Autowired
     private ProductDao productDao;
-
     /**
      * term 查询
      * search(termQueryBuilder) 调用搜索方法，参数查询构建器对象
